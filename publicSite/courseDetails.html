@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+        .course-header {
+            background-color: white;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            padding: 20px 0;
+        }
+        .course-content {
+            padding: 30px 0;
+        }
+        .btn-primary {
+            background-color: red;
+            border-color: red;
+        }
+        .btn-primary:hover {
+            background-color: darkred;
+            border-color: darkred;
+        }
+        .course-section {
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            padding-bottom: 20px;
+        }
+        .course-feature {
+            background-color: rgba(0,0,0,0.05);
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="course-header">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="mb-3">Web Development Bootcamp</h1>
+                    <p class="lead">Comprehensive Full-Stack Web Development Training</p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <button class="btn btn-primary">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-content">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="course-section">
+                        <h2 class="mb-4">Course Overview</h2>
+                        <p>Master web development from scratch with our intensive full-stack bootcamp. Learn modern technologies and build real-world projects.</p>
+                    </div>
+
+                    <div class="course-section">
+                        <h2 class="mb-4">What You'll Learn</h2>
+                        <ul class="list-unstyled">
+                            <li class="course-feature">✓ HTML5 & CSS3 Fundamentals</li>
+                            <li class="course-feature">✓ JavaScript & ES6+</li>
+                            <li class="course-feature">✓ React.js Framework</li>
+                            <li class="course-feature">✓ Node.js & Express.js Backend</li>
+                            <li class="course-feature">✓ MongoDB Database Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="course-section">
+                        <h2 class="mb-4">Course Curriculum</h2>
+                        <div class="accordion" id="curriculumAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#moduleOne">
+                                        Module 1: Frontend Fundamentals
+                                    </button>
+                                </h2>
+                                <div id="moduleOne" class="accordion-collapse collapse show">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>HTML Structure</li>
+                                            <li>CSS Styling</li>
+                                            <li>Responsive Design</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Course Details</h3>
+                            <ul class="list-unstyled">
+                                <li><strong>Duration:</strong> 12 Weeks</li>
+                                <li><strong>Level:</strong> Beginner to Advanced</li>
+                                <li><strong>Certificates:</strong> Included</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
